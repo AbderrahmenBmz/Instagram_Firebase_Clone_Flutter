@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276825280760",
+    "firebase_url": "https://cosmosflutterinstagram.firebaseio.com",
+    "project_id": "cosmosflutterinstagram",
+    "storage_bucket": "cosmosflutterinstagram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276825280760:android:6b779d7138b17afa4a6b0d",
+        "android_client_info": {
+          "package_name": "com.cosmos.flutter_instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276825280760-rp96m636g052f6ggfrtplk246fiohkhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_QwZiqOeKEYYAplW73RGtOVlpc7ZZshs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276825280760-rp96m636g052f6ggfrtplk246fiohkhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
