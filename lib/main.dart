@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_firebase_clone_flutter/pages/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,13 +9,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'InstagramClone',
       theme: ThemeData(
-      
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepPurple,
+        accentColor: Colors.teal
       ),
       home: Container(
-        child: Text("Hello Flutter ? "),
+        child:Home(),
       ),
     );
   }
