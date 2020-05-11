@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_firebase_clone_flutter/widgets/header.dart';
+import 'package:instagram_firebase_clone_flutter/widgets/progress.dart';
 
 class Timeline extends StatefulWidget {
   @override
@@ -7,7 +9,10 @@ class Timeline extends StatefulWidget {
 
 class _TimelineState extends State<Timeline> {
   @override
-  Widget build(context) {
-    return Text("Timeline");
+  Widget build(context ) {
+    return Scaffold(
+      appBar: header(context ,isAppTitle: true),
+      body: circularProgress()
+    );
   }
 }
